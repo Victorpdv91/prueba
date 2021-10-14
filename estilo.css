@@ -1,0 +1,179 @@
+
+
+h1 {
+     color: #ffffff;
+}
+
+footer{
+  color: #141313;
+}
+
+  .Barra {
+
+background: #9CECFB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-top: 16px;
+    padding-bottom: 16px; 
+
+    /* display: flex;
+    justify-content: left; */
+
+    display: grid;
+      gap: 1em ;
+      grid-template-columns: repeat(3 ,1fr);
+      grid-auto-rows: minmax(100px, auto);
+    
+    
+  }
+
+  body { 
+
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+
+    
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+
+
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+
+  }
+  
+      .grip {
+
+      background: linear-gradient();
+      display: grid;
+      gap: 1em ;
+      
+      grid-template-columns: repeat(2 ,1fr);
+      
+      grid-auto-rows: minmax(100 px, auto);
+
+
+      
+    }
+
+    .grap {
+      display: grid;
+      gap: 1em ;
+      grid-template-columns: repeat(3 ,1fr);
+      grid-auto-rows: minmax(100 px, auto);
+    }
+
+      .tres {
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+      
+      }
+    
+
+    /* .main {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+    .div {
+      grid-column: 2 / 4;
+      grid-row: 1 / 3;
+    }
+    .aside {
+      grid-column: 1;
+      grid-row: 2 / 5;
+   */
+
+  
+  
+  /* .del{
+    text-align: center;
+
+  }
+
+   */
+  .Inicio,.producto,.contacto
+  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0px;
+    border: 2px solid rgb(32, 169, 182);
+    border-radius: 8px;
+  }
+
+  .del{
+   
+    justify-content: center;
+    align-items: center;
+  }
+
+  .d1,.d2,.d3{
+
+    width: 210px; 
+    height: 320px;
+
+  background-color:#f1f1f1;
+  padding:10px;
+  border:1px solid #000000;
+  }
+
+  .d4{
+    width: 500px; 
+    height: 500px;
+  }
+
+  footer{
+    background-color:#9CECFB ;
+    width: 100%; 
+    height: 60%;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+  }
+  
+
+  .perro1 {
+    
+    width: 150px; 
+    height: 170px;
+
+  }
+
+  #top{
+    
+    border:3px solid rgb(230, 233, 69);
+    border-radius:22px;
+    background-color:#9CECFB;
+    padding:9px;
+ }
+
+ .p1{
+  width: 100px; 
+  height: 100px;
+
+ }
+ .f1{
+   justify-content: center;
+   text-align: center;
+ }
+
+ .box{
+  background-color:#f1f1f1;
+  padding:10px;
+  border:1px solid #000000;
+}
+
+.s1{
+  width: 100%;
+  height: 250px;
+}

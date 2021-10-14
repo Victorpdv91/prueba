@@ -1,0 +1,43 @@
+
+
+ body { 
+    
+    background-color: rgb(124, 131, 124) ;
+        width: 100%;
+        
+
+    }
+
+    .clase1{
+        background-color: white ;
+
+    }
+    .clase2{
+        background-color: rgb(217, 230, 230) ;
+    }
+
+    footer{
+    
+        background-color: antiquewhite ;
+
+    }
+
+    header{
+        
+
+        background-color: antiquewhite ;
+
+    }
+
+    .perro1{
+        
+     width: 150px;
+    height: 200px;
+          
+    }
+
+    .logo{
+        width: 150px;
+        height: 200px;
+
+    }
